@@ -1,7 +1,7 @@
 
 // 部署完成后在网址后面加上这个，获取自建节点和机场聚合节点，/?token=auto或/auto或
 
-let mytoken = 'auto'; //可以随便取，或者uuid生成，https://1024tools.com/uuid
+let mytoken = 'uuid'; //可以随便取，或者uuid生成，https://1024tools.com/uuid
 let BotToken =''; //可以为空，或者@BotFather中输入/start，/newbot，并关注机器人
 let ChatID =''; //可以为空，或者@userinfobot中获取，/start
 let TG = 0; //小白勿动， 开发者专用，1 为推送所有的访问信息，0 为不推送订阅转换后端的访问信息与异常访问
@@ -14,8 +14,11 @@ let cacheTTL = 24 ;//小时，缓存时长
 
 //节点链接 + 订阅链接
 let MainData = `
-vless://b7a392e2-4ef0-4496-90bc-1c37bb234904@cf.090227.xyz:443?encryption=none&security=tls&sni=edgetunnel-2z2.pages.dev&fp=random&type=ws&host=edgetunnel-2z2.pages.dev&path=%2F%3Fed%3D2048#%E5%8A%A0%E5%85%A5%E6%88%91%E7%9A%84%E9%A2%91%E9%81%93t.me%2FCMLiussss%E8%A7%A3%E9%94%81%E6%9B%B4%E5%A4%9A%E4%BC%98%E9%80%89%E8%8A%82%E7%82%B9
-https://sub.xf.free.hr/auto
+https://sub3.smallstrawberry.com/api/v1/client/subscribe?token=txk14gaiefdajkjytuagqu5pnb0pp4le
+http://s.hajimi.icu/v3/subscr?id=ac424a8637304d46b119171d0d541aeb
+https://4.feiniaoyun01.life/api/v1/client/subscribe?token=029a3d974b503f71d5615fd4907c3252
+http://nnm.dingyue.cdn.5188801.xyz/api/v1/client/subscribe?token=8e8b5ce95a69cf885e947b4426e2f8b8
+https://sub-01.suyunsub.top/api/v1/client/subscribe?token=93fb58e9be9bdf855eccede7237b3ed5
 `
 
 let urls = [];
