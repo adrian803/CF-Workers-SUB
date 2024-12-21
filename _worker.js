@@ -19,6 +19,7 @@ http://s.hajimi.icu/v3/subscr?id=ac424a8637304d46b119171d0d541aeb
 https://4.feiniaoyun01.life/api/v1/client/subscribe?token=029a3d974b503f71d5615fd4907c3252
 http://nnm.dingyue.cdn.5188801.xyz/api/v1/client/subscribe?token=8e8b5ce95a69cf885e947b4426e2f8b8
 https://sub-01.suyunsub.top/api/v1/client/subscribe?token=93fb58e9be9bdf855eccede7237b3ed5
+https://xxx.qianxin.icu/123789456l?sub
 `
 
 let urls = [];
